@@ -154,7 +154,7 @@ HomePage
         }
         xhttp.open("POST", "https://api.openai.com/v1/completions");
         xhttp.setRequestHeader("Content-type", "application/json");
-        xhttp.setRequestHeader("Authorization", "Bearer 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");
+        xhttp.setRequestHeader("Authorization", "Bearer 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");
         let sendData = JSON.stringify({
             "model": "text-davinci-003",
             "prompt": text,
